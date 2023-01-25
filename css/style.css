@@ -129,11 +129,17 @@
 
                                 /* bonus */
 
-.sale {
+.sconti {
     position: absolute;
     left: 0px;
     bottom: 30px;
 
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+}
+
+.sale {   
     width: 40px;
     height: 20px;
     background-color: red;
@@ -145,10 +151,6 @@
 }
 
 .sust {
-    position: absolute;
-    left: 42px;
-    bottom: 30px;
-
     width: 100px;
     height: 20px;
     background-color: #008000;
@@ -157,8 +159,6 @@
     line-height: 20px;
     text-align: center;
     font-size: 1em;
-    /* devo cambiare la distanza di sto robo alla 6 */
-
 }
 /* /simboli */
 
@@ -181,3 +181,5 @@ span {
     text-decoration: line-through;
 }
 /* /scritte e prezzi */
+
+
