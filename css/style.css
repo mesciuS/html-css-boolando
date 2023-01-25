@@ -4,26 +4,50 @@
     box-sizing: border-box;
 }
 
+/* layout pagina */
 .centered {
     width: 1000px;
 
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 
     margin: auto;
     padding-bottom: 60px;
 }
+/* /layout pagina */
 
+
+
+/* header */
 .navbar {
     background-color: #ff6900;
     height: 50px;
     margin-bottom: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
+.logo {
+    height: 30px;
+}
 
+.nav-btn {
+    color: white;
+}
+/* /header */
+
+
+
+/* main body */
 .card {
     width: 300px;
     height: 500px;
-    border: 1px solid black;
+}
+
+.img-no-hover {
+    width: 300px;
+    height: 500px;
 }
